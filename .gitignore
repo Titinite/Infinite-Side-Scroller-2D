@@ -1,0 +1,40 @@
+# ===============
+# Unity .gitignore
+# ===============
+
+# Dossiers générés par Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Fichiers de configuration utilisateur
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.booproj
+*.svd
+
+# Cache et logs
+*.log
+*.stacktrace
+
+# Fichiers de build
+[Bb]uilds/
+[Bb]in/
+
+# Ignorer les fichiers de Visual Studio
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+
+# Autoriser certains fichiers nécessaires
+!Assets/
+!ProjectSettings/
